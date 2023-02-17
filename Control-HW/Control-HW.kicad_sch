@@ -1,0 +1,122 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid b6d3735f-4c90-4b13-8a59-d00862ca760c)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 50.8 50.8) (size 25.4 44.45) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 175 255 191 1.0000))
+    (uuid 0efb9293-af2b-4951-be8b-c2bbb9c050db)
+    (property "Sheet name" "MCU" (id 0) (at 50.8 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "MCU.kicad_sch" (id 1) (at 50.8 95.8346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "VBAT_AIN" input (at 76.2 86.36 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 0a6573ad-a0d9-4875-aac4-aa0d5a7d8323)
+    )
+    (pin "NTC_AIN" input (at 76.2 88.9 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 340f420b-f324-45b9-ad31-d9f5d343047b)
+    )
+    (pin "B_LFET" output (at 76.2 64.77 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 19cd2629-d465-4c25-9bed-256376aadbc7)
+    )
+    (pin "B_HFET" output (at 76.2 62.23 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid c39f1c73-8f3f-4eeb-8cbe-5472dd74db48)
+    )
+    (pin "C_HFET" output (at 76.2 68.58 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid bc1f3310-aeff-4ab5-b56a-1dec4ff15bc7)
+    )
+    (pin "A_LFET" output (at 76.2 58.42 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 7e67f449-2c67-4f32-b145-acaba479f256)
+    )
+    (pin "C_LFET" output (at 76.2 71.12 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid a9663b9b-3bcb-4655-8153-7514e36c8666)
+    )
+    (pin "A_SENSE" input (at 76.2 76.2 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 7e6504ee-9bb0-4d5c-ad9c-45ed90629619)
+    )
+    (pin "B_SENSE" input (at 76.2 78.74 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 3010550a-42a3-43df-871a-5c49573a744c)
+    )
+    (pin "C_SENSE" input (at 76.2 81.28 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 248f2498-c1cf-464e-830a-71e8bfe2ac8a)
+    )
+    (pin "A_HFET" output (at 76.2 55.88 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 7f7fa7a7-7d47-4f1b-983f-740717528d45)
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/0efb9293-af2b-4951-be8b-c2bbb9c050db" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/0efb9293-af2b-4951-be8b-c2bbb9c050db/2790ea62-b87c-4368-91dd-07cfef8fd569"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/0efb9293-af2b-4951-be8b-c2bbb9c050db/2e1700ff-070e-4a41-a4a3-4356582b7de7"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0efb9293-af2b-4951-be8b-c2bbb9c050db/3f2aff24-d405-494e-a9f5-fc0bb18f1b25"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/0efb9293-af2b-4951-be8b-c2bbb9c050db/61b49617-a56e-4de8-b216-6e03e4cc29b6"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/0efb9293-af2b-4951-be8b-c2bbb9c050db/86977e70-5bb3-4a43-aadb-b73b7a255f17"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0efb9293-af2b-4951-be8b-c2bbb9c050db/87ce4190-2893-4fd2-865c-bde364fd9084"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0efb9293-af2b-4951-be8b-c2bbb9c050db/97b635b6-0af6-43bf-813b-a3a236c32e1f"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/0efb9293-af2b-4951-be8b-c2bbb9c050db/cbbaa2e6-4815-4ac2-9543-8f454f475477"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0efb9293-af2b-4951-be8b-c2bbb9c050db/cbfe5b1c-4bc3-4d61-96da-134b9d30ba8c"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/0efb9293-af2b-4951-be8b-c2bbb9c050db/cf8b04d1-58bf-452a-beb1-1f15c2969c79"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0efb9293-af2b-4951-be8b-c2bbb9c050db/398ea0a6-f9fe-486c-b3fc-845ffb587082"
+      (reference "C?") (unit 1) (value "100n") (footprint "C_Capacitor:C_0603")
+    )
+    (path "/0efb9293-af2b-4951-be8b-c2bbb9c050db/41a54d32-c902-45a5-8f22-2aab97efcfe0"
+      (reference "C?") (unit 1) (value "100n") (footprint "C_Capacitor:C_0603")
+    )
+    (path "/0efb9293-af2b-4951-be8b-c2bbb9c050db/8c6402f6-d1cd-48f0-83e7-512278a420e6"
+      (reference "C?") (unit 1) (value "100n") (footprint "C_Capacitor:C_0603")
+    )
+    (path "/0efb9293-af2b-4951-be8b-c2bbb9c050db/b528b82a-8790-4aed-8822-92aad1c1cce9"
+      (reference "C?") (unit 1) (value "100n") (footprint "C_Capacitor:C_0603")
+    )
+    (path "/0efb9293-af2b-4951-be8b-c2bbb9c050db/d2c77160-ff94-4c27-8994-8ee0fbce11da"
+      (reference "U?") (unit 1) (value "ATMEGA8A-AN") (footprint "U_IC:LQFP32_08_7x7")
+    )
+    (path "/0efb9293-af2b-4951-be8b-c2bbb9c050db/b0d2194d-f738-4ed9-b6dc-9c3215274cde"
+      (reference "Y?") (unit 1) (value "CSTNE16M0V530000R0") (footprint "Y_Oscillator:Oscillator_SMD3_3.2x1.3")
+    )
+  )
+)
