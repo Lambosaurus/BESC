@@ -1,4 +1,4 @@
-20692938687403129
+20696294493162303
 A_Assembly
 Arduino_Nano_WithMountingHoles
 Arduino Nano, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf
@@ -56826,6 +56826,13 @@ Pins-2.54-1x4
 4
 4
 J_Connector
+Pins-2.54-1x6
+
+
+0
+6
+6
+J_Connector
 Pins-2.54-1x12
 
 
@@ -85923,6 +85930,13 @@ DFN8_05_2x2_EP
 
 0
 11
+9
+U_IC
+DFN8_08_4x4_EP
+
+
+0
+13
 9
 U_IC
 LGA8_3x3_EP_MPM
