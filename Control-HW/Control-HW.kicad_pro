@@ -324,6 +324,18 @@
     [
       "0efb9293-af2b-4951-be8b-c2bbb9c050db",
       "MCU"
+    ],
+    [
+      "ff55d01d-627c-4fc9-836e-ad566344bf2f",
+      "Drivers"
+    ],
+    [
+      "d4df24fe-b303-4757-bf8a-adecec5eb33d",
+      "Sense"
+    ],
+    [
+      "b608f8f0-dc55-4dd5-8129-c2064c7f4203",
+      "Power"
     ]
   ],
   "text_variables": {}
