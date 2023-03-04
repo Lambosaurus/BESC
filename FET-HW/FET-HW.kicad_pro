@@ -320,6 +320,18 @@
     [
       "17fd965f-4b58-44cf-97dc-627a2608a81d",
       ""
+    ],
+    [
+      "72a3fdbf-6925-4f35-b34d-606e2de19b01",
+      "Half-Bridge-B"
+    ],
+    [
+      "6d5c8643-73ff-4be1-ba4b-4ebe27c87cd8",
+      "Half-Bridge-A"
+    ],
+    [
+      "ec0fd9a0-2683-44b8-a670-c0c7ad3be5e3",
+      "Half-Bridge-C"
     ]
   ],
   "text_variables": {}
