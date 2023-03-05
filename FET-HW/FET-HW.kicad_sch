@@ -821,6 +821,78 @@
     (path "/ec0fd9a0-2683-44b8-a670-c0c7ad3be5e3/5d8c88c3-5399-4822-bce3-e429a0d26ea2"
       (reference "#PWR023") (unit 1) (value "GND") (footprint "")
     )
+    (path "/72a3fdbf-6925-4f35-b34d-606e2de19b01/b97e19b1-4b64-432a-8617-ec2b245d18ce"
+      (reference "#PWR024") (unit 1) (value "+BATT") (footprint "")
+    )
+    (path "/72a3fdbf-6925-4f35-b34d-606e2de19b01/377e2128-00fe-4d99-a7a3-d2db17d9c797"
+      (reference "#PWR025") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6d5c8643-73ff-4be1-ba4b-4ebe27c87cd8/b97e19b1-4b64-432a-8617-ec2b245d18ce"
+      (reference "#PWR026") (unit 1) (value "+BATT") (footprint "")
+    )
+    (path "/6d5c8643-73ff-4be1-ba4b-4ebe27c87cd8/377e2128-00fe-4d99-a7a3-d2db17d9c797"
+      (reference "#PWR027") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ec0fd9a0-2683-44b8-a670-c0c7ad3be5e3/b97e19b1-4b64-432a-8617-ec2b245d18ce"
+      (reference "#PWR028") (unit 1) (value "+BATT") (footprint "")
+    )
+    (path "/ec0fd9a0-2683-44b8-a670-c0c7ad3be5e3/377e2128-00fe-4d99-a7a3-d2db17d9c797"
+      (reference "#PWR029") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/72a3fdbf-6925-4f35-b34d-606e2de19b01/e2b38858-e7bf-434c-8103-d35022db32ac"
+      (reference "C1") (unit 1) (value "4u7,100v") (footprint "C_Capacitor:C_1206")
+    )
+    (path "/72a3fdbf-6925-4f35-b34d-606e2de19b01/04318117-410c-4c28-bac2-488a5a5794a9"
+      (reference "C2") (unit 1) (value "4u7,100v") (footprint "C_Capacitor:C_1206")
+    )
+    (path "/72a3fdbf-6925-4f35-b34d-606e2de19b01/a2714f42-ed89-4721-bb74-fa82de1e209e"
+      (reference "C3") (unit 1) (value "4u7,100v") (footprint "C_Capacitor:C_1206")
+    )
+    (path "/72a3fdbf-6925-4f35-b34d-606e2de19b01/b4271db8-d2ec-4433-b47e-1cf7b0209bee"
+      (reference "C4") (unit 1) (value "4u7,100v") (footprint "C_Capacitor:C_1206")
+    )
+    (path "/72a3fdbf-6925-4f35-b34d-606e2de19b01/1a3aa072-97fc-4f5f-b2f4-a579e5b1a7ce"
+      (reference "C5") (unit 1) (value "4u7,100v") (footprint "C_Capacitor:C_1206")
+    )
+    (path "/72a3fdbf-6925-4f35-b34d-606e2de19b01/0940d0bf-f005-4bd6-9a0e-5a1da6881bcc"
+      (reference "C6") (unit 1) (value "4u7,100v") (footprint "C_Capacitor:C_1206")
+    )
+    (path "/6d5c8643-73ff-4be1-ba4b-4ebe27c87cd8/e2b38858-e7bf-434c-8103-d35022db32ac"
+      (reference "C7") (unit 1) (value "4u7,100v") (footprint "C_Capacitor:C_1206")
+    )
+    (path "/6d5c8643-73ff-4be1-ba4b-4ebe27c87cd8/04318117-410c-4c28-bac2-488a5a5794a9"
+      (reference "C8") (unit 1) (value "4u7,100v") (footprint "C_Capacitor:C_1206")
+    )
+    (path "/6d5c8643-73ff-4be1-ba4b-4ebe27c87cd8/a2714f42-ed89-4721-bb74-fa82de1e209e"
+      (reference "C9") (unit 1) (value "4u7,100v") (footprint "C_Capacitor:C_1206")
+    )
+    (path "/6d5c8643-73ff-4be1-ba4b-4ebe27c87cd8/b4271db8-d2ec-4433-b47e-1cf7b0209bee"
+      (reference "C10") (unit 1) (value "4u7,100v") (footprint "C_Capacitor:C_1206")
+    )
+    (path "/6d5c8643-73ff-4be1-ba4b-4ebe27c87cd8/1a3aa072-97fc-4f5f-b2f4-a579e5b1a7ce"
+      (reference "C11") (unit 1) (value "4u7,100v") (footprint "C_Capacitor:C_1206")
+    )
+    (path "/6d5c8643-73ff-4be1-ba4b-4ebe27c87cd8/0940d0bf-f005-4bd6-9a0e-5a1da6881bcc"
+      (reference "C12") (unit 1) (value "4u7,100v") (footprint "C_Capacitor:C_1206")
+    )
+    (path "/ec0fd9a0-2683-44b8-a670-c0c7ad3be5e3/e2b38858-e7bf-434c-8103-d35022db32ac"
+      (reference "C13") (unit 1) (value "4u7,100v") (footprint "C_Capacitor:C_1206")
+    )
+    (path "/ec0fd9a0-2683-44b8-a670-c0c7ad3be5e3/04318117-410c-4c28-bac2-488a5a5794a9"
+      (reference "C14") (unit 1) (value "4u7,100v") (footprint "C_Capacitor:C_1206")
+    )
+    (path "/ec0fd9a0-2683-44b8-a670-c0c7ad3be5e3/a2714f42-ed89-4721-bb74-fa82de1e209e"
+      (reference "C15") (unit 1) (value "4u7,100v") (footprint "C_Capacitor:C_1206")
+    )
+    (path "/ec0fd9a0-2683-44b8-a670-c0c7ad3be5e3/b4271db8-d2ec-4433-b47e-1cf7b0209bee"
+      (reference "C16") (unit 1) (value "4u7,100v") (footprint "C_Capacitor:C_1206")
+    )
+    (path "/ec0fd9a0-2683-44b8-a670-c0c7ad3be5e3/1a3aa072-97fc-4f5f-b2f4-a579e5b1a7ce"
+      (reference "C17") (unit 1) (value "4u7,100v") (footprint "C_Capacitor:C_1206")
+    )
+    (path "/ec0fd9a0-2683-44b8-a670-c0c7ad3be5e3/0940d0bf-f005-4bd6-9a0e-5a1da6881bcc"
+      (reference "C18") (unit 1) (value "4u7,100v") (footprint "C_Capacitor:C_1206")
+    )
     (path "/8fb78543-99ac-4674-a14e-1b6e0dfff197"
       (reference "J1") (unit 1) (value "Pins_2.54_1x12") (footprint "J_Connector:Pins-2.54-1x12")
     )
