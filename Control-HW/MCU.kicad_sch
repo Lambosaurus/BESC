@@ -1041,7 +1041,7 @@
     (uuid 1895b57a-ad64-4af4-bdb7-7be6ec5fc16b)
     (property "Reference" "N6" (id 0) (at 69.85 136.051 0))
     (property "Value" "TC2030_NL_SWD" (id 1) (at 69.85 138.5879 0))
-    (property "Footprint" "N_NonPart:TagConnect_2030_NL" (id 2) (at 69.85 158.75 0)
+    (property "Footprint" "N_NonPart:TagConnect_TC2030_NL" (id 2) (at 69.85 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 64.135 147.32 0)

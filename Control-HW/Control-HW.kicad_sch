@@ -1074,7 +1074,7 @@
       (reference "N5") (unit 1) (value "Pad_4x2") (footprint "N_NonPart:Pad_4x2")
     )
     (path "/0efb9293-af2b-4951-be8b-c2bbb9c050db/1895b57a-ad64-4af4-bdb7-7be6ec5fc16b"
-      (reference "N6") (unit 1) (value "TC2030_NL_SWD") (footprint "N_NonPart:TagConnect_2030_NL")
+      (reference "N6") (unit 1) (value "TC2030_NL_SWD") (footprint "N_NonPart:TagConnect_TC2030_NL")
     )
     (path "/0efb9293-af2b-4951-be8b-c2bbb9c050db/a97c3e36-9e3f-4703-8a3f-97a45d71789d"
       (reference "R1") (unit 1) (value "10K") (footprint "R_Resistor:R_0603")
