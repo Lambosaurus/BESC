@@ -10,3 +10,9 @@ FET-HW/fp-info-cache
 *.pdf
 
 Control-HW/fp-info-cache
+
+Control-HW/Outputs/
+
+FET-HW/Outputs/
+
+scripts/__pycache__/
