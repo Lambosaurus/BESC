@@ -97,9 +97,7 @@ def get_dnf_list(components: list[Component]) -> list[str]:
     return [ c.ref for c in components ]
 
 if __name__ == "__main__":
-    OUTPUT_NAME = "ZIP_Supercap"
-    OUTPUT_DIR = "../Outputs"
-
-    file_path = os.path.join(OUTPUT_DIR, OUTPUT_NAME)
-    components = list_components(file_path + ".xml")
-    write_bom(file_path + ".csv")
+    import sys
+    file_path = sys.argv[1]
+    components = load_components(file_path + ".xml")
+    create_bom(components, file_path + ".csv")

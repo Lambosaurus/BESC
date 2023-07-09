@@ -9,12 +9,13 @@ KICAD_CLI = os.path.join(KICAD_ROOT, "kicad-cli.exe")
 KICAD_PYTHON = os.path.join(KICAD_ROOT, "python.exe")
 IBOM_SCRIPT = os.path.expandvars("%USERPROFILE%/Documents/KiCad/7.0/3rdparty/plugins/org_openscopeproject_InteractiveHtmlBom/generate_interactive_bom.py")
 
+SCRIPT_VERSION = "v1.2"
 
 def get_layer_names(layers: int) -> list[str]:
     names = ["F.SilkS", "F.Paste", "F.Mask", "F.Cu", "B.Cu", "B.Mask", "B.Paste", "B.SilkS", "Edge.Cuts"]
     if layers > 2:
-        for i in range(0, layers - 2):
-            names.append(f"In{i+1}.Cu")
+        for i in range(1, layers - 2):
+            names.append(f"In{i}.Cu")
     return names
 
 def run_command(args: list[str]):
@@ -103,16 +104,20 @@ def export_pcb_ibom(input_pcb: str, output_file: str, dnf_list: list[str] = []):
         "--blacklist", ",".join(dnf_list)
     ])
 
-def get_script_directory() -> str:
-    return os.path.dirname(os.path.realpath(__file__))
-
 def export_pcb_image(input_pcb: str, output_file: str):
     print("Currently image export is not supported")
-    template_path = os.path.join(get_script_directory(), "template.png")
-    shutil.copyfile(template_path, output_file)
+    shutil.copyfile("scripts/template.png", output_file)
     run_command([
         "mspaint", output_file
     ])
+
+def zip_files(input_path: str, output_file: str):
+    run_command([
+        "tar",
+        "-C", input_path,
+        "-acf", output_file,
+    ] + os.listdir(input_path)
+    )
 
 if __name__ == "__main__":
     BOARD_NAME = sys.argv[1]
@@ -120,8 +125,10 @@ if __name__ == "__main__":
 
     INPUT_SCH = BOARD_NAME + ".kicad_sch"
     INPUT_PCB = BOARD_NAME + ".kicad_pcb"
-    OUTPUT_DIR = "Outputs"
+    OUTPUT_DIR = "outputs"
     OUTPUT_NAME = BOARD_NAME
+
+    print("Running output generator {}".format(SCRIPT_VERSION))
 
     clean_directory(OUTPUT_DIR)
 
@@ -147,6 +154,9 @@ if __name__ == "__main__":
     export_pcb_image(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".png"))
 
     print("Generating step file")
-    export_pcb_pos(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".step"))
+    export_pcb_step(INPUT_PCB, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".step"))
+
+    print("Generating zip file")
+    zip_files(OUTPUT_DIR, os.path.join(OUTPUT_DIR, OUTPUT_NAME + ".zip"))
 
     input("Done")
